@@ -1,7 +1,6 @@
 .carousel-indicators {
     position: relative; /* Ensure other elements are positioned correctly */
 }
-
 .tittle {
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
@@ -238,5 +237,10 @@ transform: translate(101px,93px);
 }
 
 .tituloOne{
-    transform: translate(0px, -375px);
+    transform: translate(0px, -707px);
+}
+
+.carousel-item {
+
+    height: 100vh;
 }
