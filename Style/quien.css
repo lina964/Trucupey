@@ -63,11 +63,11 @@ font-family: "Open Sans", sans-serif;
   font-variation-settings: "wdth" 100;
 
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #2F2638;
 }
 
 .section {
@@ -81,17 +81,31 @@ body {
     box-sizing: border-box; 
 }
 
+.box {
+    background-color: #FFFFE3;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 .image-box {
-    width: 250px;
-    height: 250px;
+    width: 800px;
+    height: 800px;
     background-color: #ddd;
 }
 
 .description {
     text-align: center;
+    width: auto;
     font-size: 24px;
     color: black;
+    align-content: center;
 }
 
 .description2
@@ -99,7 +113,6 @@ body {
     text-align: center;
     font-size: 24px;
     color: black;
-    text-decoration: underline;
 }
 
 
@@ -195,7 +208,7 @@ nav {
 }
 
 .section1 {
-    background-color: #2F2638;
+    background-color: #FFFFE3;
     
     }
     
@@ -207,56 +220,7 @@ transform: translate(101px,93px);
 .tittle {
     font-family: 'Open Sans', sans-serif;
     font-size: 48px;
-    color: #FFFFE3;
+    color: #2F2638;
     text-align: center;
    padding-top: 60px; 
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa; /* Optional background for the body */
-}
-
-.contact-box {
-    width: 803px;
-    height: 793px;
-    background-color: #6ECCBA;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: 60px auto; 
-}
-
-.contact-title {
-    color: white;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    color: black;
-}
-
-.buttonfooter2 {
-    background-color:#FF925C;
-    border-color: #FF925C;
-    color: white;
-    font-size: 16px;
-    justify-content: center;
-    font-family: "Open Sans", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-  
-
-}
-
-
-.formOne {
-background-color: #6ECCBA;
-
 }
