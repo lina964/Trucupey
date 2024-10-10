@@ -95,6 +95,8 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .image-box {
     width: 250px;
     height: 250px;
@@ -307,6 +309,28 @@ nav {
 transform: translate(101px,93px);
 
 }
+
+/* Sale */
+
+.sale2{
+    background-color: #6ECCBA;
+    position: absolute;
+    z-index: 20;
+    border: none;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    
+
+}
+
+.oferta{
+    color:  #6ECCBA;
+    position: absolute;
+    font-weight: bolder;
+}
+
 
 /* estilos del modal */
 .Carrito {
