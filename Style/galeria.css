@@ -2,11 +2,15 @@
     position: relative; /* Ensure other elements are positioned correctly */
 }
 .tittle {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 48px;
-    color: white;
+    color: black;
     font-weight: lighter;
     text-align: center;
+}
+.link {
+text-decoration: none;
+
 }
 
 
@@ -208,21 +212,25 @@ nav {
 }
 
 /* Hasta aca va lo de la navBar */
+.carousel-inner {
+margin-top: 6rem;
+
+}
 
 .carousel-item {
     width: 100%;
-    height: 450px;
+    height: 550px;
     text-align: center;
 }
 .Carrusel {
-    background-image: -moz-element();
-    object-fit: cover !important; 
-    width: 100% !important;
+    object-fit: fill !important; 
+    height: 80vh; 
+
+    /* width: 100% !important; */
     margin: 0 auto;
     border: #FFE266 solid 3px;
 
 }
-
 .logofooter2 {
     width: 250px;
     height: 180px;
@@ -242,7 +250,16 @@ transform: translate(101px,93px);
     transform: translate(0px, -707px);
 }
 
-.carousel-item {
+.backgroundcolor {
+background-color: #ffffE3;
 
-    height: 100vh;
+}
+
+@media (max-width:800px) {
+    .carousel-item {
+        width: 70%;
+        height: 450px;
+    
+    }
+    
 }
