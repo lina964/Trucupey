@@ -304,3 +304,36 @@ transform: translate(101px,93px);
     font-size: 12px;
 }
 
+/* responsiveNavBar */
+
+@media screen and (max-width: 1104px){
+    .responsiveImg {
+     display: none;
+    }
+    .logo {
+        margin: 30px 500px 0 0;
+        width: 120px ;
+        height: 120px;
+    }
+    .btnMenu1 {
+        height: 120px;
+        width: 180px;
+   }  .responsiveHome {
+    width: 380px;
+    height: 265px;
+}
+  }
+@media screen and (max-width: 916px){
+    .logo {
+        margin: 30px 300px 0 0;
+}}
+@media screen and (max-width: 580px){
+    .logo {
+        margin: 30px 250px 0 0;
+}
+.btnMenu1 {
+    height: 100px;
+    width: 160px;
+
+} }
+/* hasta aca va es responsiveNavBar */
