@@ -1,3 +1,4 @@
+/* @import url('NavBar.css'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
@@ -171,6 +172,8 @@ nav {
   width: 200px;
   height: 218px;
   margin: 5px 190px 0 60px;
+  position: relative;
+  z-index: 20;
 }
 .logo{
     background-color: aqua;
@@ -268,27 +271,38 @@ transform: translate(101px,93px);
     font-size: 12px;
 }
 
-@media screen and (max-width: 1104px){
-    .responsiveImg {
-     display: none;
+
+/* responsive articulos home */
+@media screen and (max-width: 1199px ) {
+    .image-box {
+    height: 220px;
+    width: 220px;
     }
-    .logo {
-        margin: 30px 500px 0 0;
-        width: 120px ;
-        height: 120px;
+}
+
+@media screen and (max-width: 991px ) {
+    .image-box {
+    height: 170px;
+    width: 170px;
     }
-    .btnMenu1 {
-        height: 120px;
-        width: 180px;
-        margin-top: 80px;
+}
+@media screen and (max-width: 776px ) {
+    .image-box {
+    height: 130px;
+    width: 130px;
+    }
+    .card-title {
+    font-size: 10px;
+    }
     .responsiveHome {
-        width: 380px;
-        height: 265px;
-    }}
-  }
-@media screen and (max-width: 1104px){
-    .logo {
-        margin: 30px 500px 0 0;
-        display: flex;
-        justify-content: center;
-}}
+    height: 300px ;
+    width: 60px;
+    }
+}
+@media screen and (max-width: 552px ) {
+    .image-box {
+    height: 110px;
+    width: 110px;
+    }
+}
+/* hasta aca va el responsive articulos home */
