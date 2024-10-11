@@ -170,6 +170,7 @@ nav {
   width: 200px;
   height: 218px;
   margin: 5px 190px 0 60px;
+  position: relative;
 }
 .logo{
     background-color: aqua;

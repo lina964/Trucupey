@@ -170,6 +170,7 @@ nav {
   width: 200px;
   height: 218px;
   margin: 5px 190px 0 60px;
+  position: relative;
 }
 .logo{
     background-color: aqua;
@@ -307,6 +308,40 @@ nav {
 transform: translate(101px,93px);
 
 }
+
+/* Sale */
+
+.sale2{
+    background-color: #6ECCBA;
+    position: absolute;
+    z-index: 20;
+    border: none;
+    padding: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    
+
+}
+
+.descuento{
+    display:flex;
+   
+   align-items: center;
+   justify-content: center;
+
+}
+
+.oferta{
+    color:  #6ECCBA;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    font-weight: bolder;
+    margin-left: 40px;
+    justify-content: right;
+    font-size: 15px;
+}
+
 /* estilos del modal */
 .Carrito {
     height: 45px;
