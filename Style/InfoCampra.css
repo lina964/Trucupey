@@ -290,3 +290,22 @@ nav {
     border-color: #FFE266
 }
 
+@media screen and (max-width: 1275px){
+    .responsive {
+        display: none;
+} .responsive1 {
+    margin-left:-400px;
+}
+ }
+
+ @media screen and (max-width: 872px){
+    .cuerpoTienda {
+        display: none;
+    }
+ }     
+ @media screen and (max-width: 620px){
+    .responsive1 {
+        margin-left:-480px;
+    }
+ }                     
+ 
