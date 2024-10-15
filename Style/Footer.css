@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/* responsive footer */
+
+@media screen and (max-width: 1034px ) {
+    .box1 {
+    font-size: 15px;
+    }
+    .buttonfooter {
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    }
+    .box2 {
+        font-size: 15px;
+    }
+    }
+
+    @media screen and (max-width: 784px ) {
+        .box1 {
+        font-size: 13px;
+        }
+        .buttonfooter {
+        font-size: 10px;
+        width: 130px;
+        height: 30px;
+        border-radius: 2px;
+        }
+        .box2 {
+            font-size: 13px;
+        }
+        .logofooter {
+        height: 180px;
+        width: 185px;
+        }
+        }
+        
+    @media screen and (max-width: 565px ) {
+        .box1 {
+        font-size: 10px;
+        }
+        .buttonfooter {
+        font-size: 9px;
+        width: 130px;
+        height: 30px;
+        border-radius: 2px;
+        }
+        .box2 {
+            font-size: 10px;
+        }
+        .logofooter {
+        height: 160px;
+        width: 165px;
+        }
+        }
+
