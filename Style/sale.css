@@ -219,7 +219,7 @@ nav {
 /* Tienda selección */
 .cuerpoTienda{
     display: flex;
-    
+    margin-top: -60px;
 
 }
 
