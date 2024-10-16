@@ -259,7 +259,7 @@ background-color: #ffffE3;
 
 }
 
-@media (max-width:800px) {
+@media (min-width:400px) {
     .carousel-item {
         width: 70%;
         height: 450px;
